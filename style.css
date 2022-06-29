@@ -1,0 +1,22 @@
+/* CSS Resetter */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* END of CSS Resetter */
+
+html {
+  font-size: 62.5%;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
