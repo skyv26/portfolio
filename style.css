@@ -27,7 +27,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1.6rem 2.4rem;
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   color: white;
   font-size: 2.4rem;
   font-family: 'Odibee Sans', cursive;
@@ -40,10 +40,9 @@ body {
   letter-spacing: 2px;
 }
 
-
 .section-intro {
   display: flex;
-  background-color: #1C1A19;
+  background-color: #1c1a19;
   height: 100%;
   flex-direction: column;
   gap: 1.2rem;
@@ -51,7 +50,7 @@ body {
 }
 
 .section-intro__main-heading {
-  color: #FF6B00;
+  color: #ff6b00;
   font-family: 'Crete Round', serif;
   font-size: 5.6rem;
   line-height: 6.4rem;
@@ -60,13 +59,13 @@ body {
 }
 
 .section-intro__secondary-heading {
-  color: #FFF5E1;
+  color: #fff5e1;
   font-family: 'Roboto', sans-serif;
   font-size: 2.4rem;
 }
 
 .section-intro__description {
-  color: #FFFFFF;
+  color: #fff;
   font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -80,7 +79,7 @@ body {
 }
 
 .navigation-list__social--link {
-  color: #DBD8D7;
+  color: #dbd8d7;
 }
 
 .social-icon {
