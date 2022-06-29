@@ -43,6 +43,9 @@ body {
 .section-intro {
   display: flex;
   background-color: #1c1a19;
+  background-image: url(./Illustration.svg);
+  background-repeat: no-repeat;
+  background-position: bottom -4rem right -33rem;
   height: 100%;
   flex-direction: column;
   gap: 1.2rem;
