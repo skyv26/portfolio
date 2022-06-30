@@ -92,7 +92,16 @@ body {
 /* SECTION 2 (WORK SECTION)*/
 
 .work-section_container {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
   padding: 12rem 2.4rem;
+}
+
+.section-headline--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
 }
 
 .work-section_container--heading {
@@ -102,9 +111,19 @@ body {
   font-weight: 400;
 }
 
+.work-section_container--highlighted_project {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2.4rem;
+}
+
+
+
 .work-section_container--project_list {
   display: grid;
   grid-template: auto auto;
+  grid-row-gap: 2.4rem;
 }
 
 .project_list--li {
@@ -125,8 +144,6 @@ body {
   flex-direction: column;
   padding: 0.8rem 1.6rem;
   gap: 1.2rem;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
   color: #fff;
 }
 
@@ -140,6 +157,8 @@ body {
 .project-desc {
   font-size: 1.6rem;
   line-height: 2.4rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400; 
 }
 
 .technology-list {
@@ -153,7 +172,19 @@ body {
   line-height: 2rem;
   padding: 1.4rem;
   background-color: rgba(255, 255, 255, 0.244);
-  font-family: inherit;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400; 
+}
+
+.work-section_container--highlighted_project .technology-list .skills {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 1.4rem;
+  background-color: #fff;
+  color: #091e42;
+  border: 1px solid #8993A4;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 .project_list--li__cta {
@@ -166,4 +197,8 @@ body {
   text-decoration: none;
   padding: 1.2rem;
   font-size: 1.7rem;
+}
+
+.work-section_container--highlighted_project .project_list--li__cta {
+  width: 12.4rem;
 }
