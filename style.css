@@ -88,3 +88,82 @@ body {
 .social-icon {
   font-size: 2.4rem;
 }
+
+/* SECTION 2 (WORK SECTION)*/
+
+.work-section_container {
+  padding: 12rem 2.4rem;
+}
+
+.work-section_container--heading {
+  font-size: 3.8rem;
+  line-height: 5.2rem;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+}
+
+.work-section_container--project_list {
+  display: grid;
+  grid-template: auto auto;
+}
+
+.project_list--li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 32.7rem;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),url("./assets/random-project-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top -1rem;
+  padding-top: 7.6rem;
+  gap: 1.4rem;
+}
+
+.project-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem 1.6rem;
+  gap: 1.2rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.project-title {
+  font-family: 'Crete Round', serif;
+  font-weight: inherit;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+}
+
+.project-desc {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.technology-list {
+  display: flex;
+  gap: 1.2rem;
+  list-style: none;
+}
+
+.technology-list li {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 1.4rem;
+  background-color: rgba(255, 255, 255, 0.244);
+  font-family: inherit;
+}
+
+.project_list--li__cta {
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  line-height: 2.4rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 1.2rem;
+  font-size: 1.7rem;
+}
