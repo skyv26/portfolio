@@ -211,6 +211,9 @@ body {
 
 .about-section__container {
   background-color: #1c1a19;
+  background-image: url("./assets/about-frame.svg");
+  background-repeat: no-repeat;
+  background-position: top 20% right;
 }
 
 .about-section__container .intro--container {
@@ -249,6 +252,12 @@ body {
   text-decoration: none;
   color: #fff;
   width: max-content;
+}
+
+.section-bottom-line {
+  width: 100%;
+  margin-top: 9rem;
+  padding: 0 2.4rem;
 }
 
 .developer--strength__container {
