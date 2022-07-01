@@ -111,6 +111,11 @@ body {
   font-weight: 400;
 }
 
+.work-bottom {
+  stroke: #212121;
+  fill: #212121;
+}
+
 .work-section_container--highlighted_project {
   display: flex;
   flex-direction: column;
@@ -214,6 +219,9 @@ body {
   background-image: url("./assets/about-frame.svg");
   background-repeat: no-repeat;
   background-position: top 20% right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-section__container .intro--container {
@@ -221,6 +229,7 @@ body {
   flex-direction: column;
   padding: 12rem 2.4rem;
   gap: 2.4rem;
+  margin-bottom: 9rem;
 }
 
 .about-section__container .intro--container .intro--container__title {
@@ -254,10 +263,10 @@ body {
   width: max-content;
 }
 
-.section-bottom-line {
+.about-bottom {
+  stroke-width: 2;
   width: 100%;
-  margin-top: 9rem;
-  padding: 0 2.4rem;
+  align
 }
 
 .developer--strength__container {
