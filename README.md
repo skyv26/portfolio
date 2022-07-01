@@ -1,12 +1,14 @@
-# Hello World
+# Personal Portfolio
 
-> Personal Portfolio
+> Personal portfolio project for learning purposes.
 
 
 ## Built With
 
 - HTML5
 - CSS3 [Flexbox, Box Model, Background and Image]
+- Linters
+- Vector Graphics
 
 
 ## Live Demo (if available)
@@ -34,9 +36,9 @@ In order to use the files you should have to clone it and then follow the instru
 - GitHub: [@skyv26](https://github.com/skyv26)
 
 ## Screenshot
-<div align="center">
-Challenged Design VS My Desktop Solution<br>
-<a href="./app_screenshot.png" target="_blank"><img src="./app_screenshot.png" width="45%" height="60%"/></a>
+<div>
+Challenged Design<br>
+<a href="./assets/app_screenshot-1.png" target="_blank"><img src="./assets/app_screenshot-1.png" width="45%" height="60%"/></a>
 
 ## 📝 License
 
