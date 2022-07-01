@@ -206,3 +206,106 @@ body {
 .work-section_container--highlighted_project .project_list--li__cta {
   width: 12.4rem;
 }
+
+/* About Section */
+
+.about-section__container {
+  background-color: #1c1a19;
+}
+
+.about-section__container .intro--container {
+  display: flex;
+  flex-direction: column;
+  padding: 12rem 2.4rem;
+  gap: 2.4rem;
+}
+
+.about-section__container .intro--container .intro--container__title {
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 7.2rem;
+  line-height: 8.8rem;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.about-section__container .intro--container .intro--container__desc {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400; 
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #f4f5f7;
+}
+
+.about-section__container .intro--container .intro--container__resumeBtn {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold; 
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  letter-spacing: 3%;
+  text-align: center;
+  padding: 1.2rem;
+  background-color: #ff6b00;
+  text-decoration: none;
+  color: #fff;
+  width: max-content;
+}
+
+.developer--strength__container {
+  display: flex;
+  flex-direction: column;
+  padding: 12rem 2.4rem;
+}
+
+.strength-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.strength-container__skill {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 3.2rem;
+  align-items: center;
+  gap: 1.2rem;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+}
+
+.icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: #ff6b00;
+}
+
+.lang-icon {
+  transform: rotate(45deg);
+}
+
+.framework-icon {
+  transform: rotate(90deg);
+}
+
+.skills-icon {
+  border-radius: 50%;
+}
+
+.strength-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  list-style: none;
+  align-items: center;
+}
+
+.strength-list .skill {
+  padding: 1.2rem 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 4.27rem;
+  color: #fff;
+}
