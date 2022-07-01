@@ -7,6 +7,7 @@
 
 - HTML5
 - CSS3 [Flexbox, Box Model, Background and Image]
+- linters [html linter and stylesheet linter]
 
 
 ## Live Demo (if available)
@@ -35,7 +36,7 @@ In order to use the files you should have to clone it and then follow the instru
 
 ## Screenshot
 <div align="center">
-Challenged Design VS My Desktop Solution<br>
+Challenged Design<br>
 <a href="./app_screenshot.png" target="_blank"><img src="./app_screenshot.png" width="45%" height="60%"/></a>
 
 ## 📝 License
