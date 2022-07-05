@@ -331,7 +331,6 @@ body {
 
 /* Form Section */
 
-
 .form-section__container,
 .form-section__container .form {
   display: flex;
@@ -342,7 +341,6 @@ body {
   padding: 12rem 2.4rem 8rem 2.4rem;
   gap: 5.8rem;
 }
-
 
 .form-section__container .intro {
   font-family: 'Inter', sans-serif;
@@ -389,15 +387,6 @@ body {
   border-top: 1px solid #dfe1e6;
 }
 
-.footer .navigation-list {
-
-}
-
-.footer .navigation-list .navigation-list__social {
-
-}
-
-.footer .navigation-list .navigation-list__social 
-.navigation-list__social--link svg path {
+.footer .navigation-list .navigation-list__social .navigation-list__social--link svg path {
   fill: #505f79;
 }
