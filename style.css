@@ -328,3 +328,50 @@ body {
   line-height: 4.27rem;
   color: #fff;
 }
+
+/* Form Section */
+
+
+.form-section__container,
+.form-section__container .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section__container {
+  padding: 12rem 2.4rem;
+  gap: 5.8rem;
+}
+
+
+.form-section__container .intro {
+  font-family: 'Inter', sans-serif;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+  color: #172b4d;
+  text-align: center;
+}
+
+.form-section__container .form {
+  gap: 2.4rem;
+}
+
+.inputs {
+
+}
+
+.footer {
+
+}
+
+.footer .navigation-list {
+
+}
+
+.footer .navigation-list .navigation-list__social {
+
+}
+
+.footer .navigation-list .navigation-list__social .navigation-list__social--link {
+  
+}
