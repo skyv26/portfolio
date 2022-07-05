@@ -36,9 +36,18 @@ In order to use the files you should have to clone it and then follow the instru
 - GitHub: [@skyv26](https://github.com/skyv26)
 
 ## Screenshot
-<div>
-Challenged Design<br>
-<a href="./assets/app_screenshot-1.png" target="_blank"><img src="./assets/app_screenshot-1.png" width="45%" height="60%"/></a>
+<div style="display: flex; flex-direction: column; gap: 1rem;">
+
+  <p>Challenged Design (Mobile Version Only)</p>
+  
+  <div style="display: flex; gap: 5px; align-items: flex-start; justify-content: center;">
+    <a href="./assets/screenshot_1.png" target="_blank"><img src="./assets/screenshot_1.png" width="auto" height="auto"/></a>
+    <a href="./assets/screenshot_2.png" target="_blank"><img src="./assets/screenshot_2.png" width="auto" height="auto"/></a>
+    <a href="./assets/screenshot_3.png" target="_blank"><img src="./assets/screenshot_3.png" width="auto" height="auto"/></a>
+    <a href="./assets/screenshot_4.png" target="_blank"><img src="./assets/screenshot_4.png" width="auto" height="auto"/></a>
+    <a href="./assets/screenshot_5.png" target="_blank"><img src="./assets/screenshot_5.png" width="auto" height="auto"/></a>
+  </div>
+</div>
 
 ## 📝 License
 
