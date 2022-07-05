@@ -339,7 +339,7 @@ body {
 }
 
 .form-section__container {
-  padding: 12rem 2.4rem;
+  padding: 12rem 2.4rem 8rem 2.4rem;
   gap: 5.8rem;
 }
 
@@ -357,11 +357,36 @@ body {
 }
 
 .inputs {
+  padding: 1.6rem;
+  border: none;
+  border-bottom: 1px solid #dbdad7;
+  color: #3c3a39;
+}
 
+.message {
+  border: none;
+  background-color: #fbf8f7;
+  height: 11.4rem;
+}
+
+.form-section__container .form .btn {
+  padding: 12px;
+  border: none;
+  background-color: #ff6b00;
+  width: max-content;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  color: #fff;
+  margin: auto;
 }
 
 .footer {
-
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+  border-top: 1px solid #dfe1e6;
 }
 
 .footer .navigation-list {
@@ -372,6 +397,7 @@ body {
 
 }
 
-.footer .navigation-list .navigation-list__social .navigation-list__social--link {
-  
+.footer .navigation-list .navigation-list__social 
+.navigation-list__social--link svg path {
+  fill: #505f79;
 }
