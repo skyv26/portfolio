@@ -131,20 +131,19 @@ body {
 
 .work-section_container--project_list {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  grid-row-gap: 2.4rem;
+  grid-template-columns: repeat(auto-fit, minmax(32.7rem, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(38.6rem, 43.5rem));
+  grid-gap: 2.4rem;
 }
 
 .project_list--li {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  max-width: 32.7rem;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("./assets/random-project-background.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top -1rem;
+  background-size: 100% 100%;
+  background-position: center top -0.6rem;
   padding-top: 7.6rem;
   gap: 1.4rem;
 }
@@ -403,4 +402,11 @@ body {
 
 .footer .navigation-list .navigation-list__social .navigation-list__social--link svg path {
   fill: #505f79;
+}
+
+
+@media (min-width: 144em){
+  body {
+    background-color: yellow;
+  }
 }
