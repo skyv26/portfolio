@@ -32,12 +32,12 @@ body {
   font-size: 2.4rem;
 }
 
-
 .main-header__logo {
-  font-family: 'Inter', sans-serif;
-  line-height: 2.0rem;
+  font-family: "Inter", sans-serif;
+  line-height: 2rem;
   font-size: 2rem;
-  text-shadow: 1px 1px rgba(255, 255, 255, 0.729), 2px 2px rgba(128, 128, 128, 0.613);
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.729),
+    2px 2px rgba(128, 128, 128, 0.613);
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -62,9 +62,9 @@ body {
   text-decoration: none;
   display: inline-block;
   color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.5rem;
-  line-height: 2.0rem;
+  line-height: 2rem;
   font-weight: 600;
   vertical-align: middle;
 }
@@ -96,7 +96,7 @@ body {
 
 .section-intro__main-heading {
   color: #ff6b00;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 5.6rem;
   line-height: 6.4rem;
   letter-spacing: 0.37px;
@@ -105,13 +105,13 @@ body {
 
 .section-intro__secondary-heading {
   color: #fff5e1;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2.4rem;
 }
 
 .section-intro__description {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-family: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -149,7 +149,7 @@ body {
 
 .work-section_container--heading {
   font-size: 3.8rem;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-weight: 400;
 }
 
@@ -183,7 +183,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("./assets/random-project-background.png");
+  background: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url("./assets/random-project-background.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center top -0.6rem;
@@ -200,7 +205,7 @@ body {
 }
 
 .project-title {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-weight: inherit;
   font-size: 3.2rem;
   line-height: 4.4rem;
@@ -209,7 +214,7 @@ body {
 .project-desc {
   font-size: 1.6rem;
   line-height: 2.4rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
@@ -219,12 +224,12 @@ body {
   list-style: none;
 }
 
-.technology-list li {
+.technology-list .skills {
   font-size: 1.5rem;
   line-height: 2rem;
   padding: 1.4rem;
   background-color: rgba(255, 255, 255, 0.244);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
@@ -235,13 +240,13 @@ body {
   background-color: #fff;
   color: #091e42;
   border: 1px solid #8993a4;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
 .project_list--li__cta {
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 2.4rem;
   color: #fff;
   font-weight: bold;
@@ -276,16 +281,16 @@ body {
 }
 
 .about-section__container .intro--container .intro--container__title {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-weight: 400;
   font-size: 7.2rem;
   line-height: 8.8rem;
   letter-spacing: 0.37px;
-  color: #ff6b00;
+  color: #f55800;
 }
 
 .about-section__container .intro--container .intro--container__desc {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -293,14 +298,14 @@ body {
 }
 
 .about-section__container .intro--container .intro--container__resumeBtn {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 1.7rem;
   line-height: 2.4rem;
   letter-spacing: 3%;
   text-align: center;
   padding: 1.2rem;
-  background-color: #ff6b00;
+  background-color: #f55800;
   text-decoration: none;
   color: #fff;
   width: max-content;
@@ -318,7 +323,6 @@ body {
   flex-direction: column;
   padding: 12rem 0;
   gap: 2.4rem;
-  
 }
 
 .strength-container {
@@ -330,7 +334,7 @@ body {
 
 .strength-container__skill {
   display: flex;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 3.2rem;
   line-height: 4.4rem;
@@ -344,7 +348,6 @@ body {
   width: 1.8rem;
   height: 1.8rem;
 }
-
 
 .lang-icon,
 .framework-icon,
@@ -375,7 +378,7 @@ body {
 
 .strength-list .skill {
   padding: 1.2rem 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 2.2rem;
   line-height: 4.27rem;
@@ -396,7 +399,7 @@ body {
 }
 
 .form-section__container .intro {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 3.2rem;
   line-height: 4.4rem;
   color: #172b4d;
@@ -425,7 +428,7 @@ body {
   border: none;
   background-color: #ff6b00;
   width: max-content;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 1.7rem;
   line-height: 2.4rem;
@@ -440,18 +443,22 @@ body {
   border-top: 1px solid #dfe1e6;
 }
 
-.footer .navigation-list .navigation-list__social .navigation-list__social--link svg path {
+.footer
+  .navigation-list
+  .navigation-list__social
+  .navigation-list__social--link
+  svg
+  path {
   fill: #505f79;
 }
 
-
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .main-header {
     width: 100%;
     font-size: 2.4rem;
     /* font-family: 'Odibee Sans', cursive; */
   }
-  
+
   .main-header__navigation--bar {
     display: none;
   }
@@ -491,7 +498,7 @@ body {
 
   .work-section_container--heading {
     font-size: 3.8rem;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-weight: 400;
   }
 
@@ -511,9 +518,9 @@ body {
   .highlighted_project--wrapper {
     width: 50%;
   }
-  
+
   .highlighted_project--wrapper .project-title {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-weight: inherit;
     font-size: 3.2rem;
     line-height: 4.4rem;
@@ -543,7 +550,7 @@ body {
     margin-bottom: 0;
   }
 
-  .about-section__container  .about-bottom {
+  .about-section__container .about-bottom {
     stroke: #fff;
     fill: #fff;
     width: 100%;
@@ -565,14 +572,14 @@ body {
   .strength-list {
     align-items: flex-start;
   }
-  
+
   .form-section__container {
     flex-direction: row;
     padding: 13rem 2.4rem;
   }
-  
+
   .form-section__container .intro {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 3.2rem;
     line-height: 4.4rem;
     color: #172b4d;
@@ -588,15 +595,14 @@ body {
   .form-section__container .form .btn {
     padding: 12px;
     margin: 0;
-  }  
-  
+  }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
   .main-header {
     padding: 0.75rem 12rem;
   }
-  
+
   .main-header__navigation--bar {
     display: none;
   }
@@ -606,9 +612,9 @@ body {
   }
 
   .section-intro {
-    background-repeat: no-repeat;
-    background-position: right -28rem top -11.25rem;
-    background-size: contain;
+    background-image: url(./assets/Illustration-desktop.svg);
+    background-position: right -30rem top -6rem;
+    background-size: 100% 100%;
     padding: 0 0 0 12rem;
     position: relative;
   }
@@ -620,42 +626,43 @@ body {
     width: 52%;
     padding: 13rem 0;
   }
-  
-  .navigation-list {
+
+  .section-intro .navigation-list {
     position: absolute;
     flex-direction: column;
     list-style: none;
-    left: 2rem;
+    gap: 1rem;
+    left: -3.25rem;
     top: 50%;
-
+    transform: translate(5rem, -50%) scale(0.9);
     justify-content: space-around;
   }
-  
+
   /* SECTION 2 (WORK SECTION) */
 
   .work-section_container {
     display: flex;
     flex-direction: column;
     gap: 8rem;
-    padding: 12rem 2.4rem;
+    padding: 10rem 12rem;
   }
 
   .section-headline--wrapper {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 2.4rem;
+    gap: 1rem;
   }
 
   .work-section_container--heading {
     font-size: 3.8rem;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-weight: 400;
   }
 
   .work-bottom {
     stroke: #212121;
-    width: 55%;
+    width: 60%;
   }
   .work-section_container--highlighted_project {
     flex-direction: row;
@@ -663,57 +670,329 @@ body {
   }
 
   .work-section_container--highlighted_project .image {
-    width: 70%;
+    width: 66%;
   }
 
   .highlighted_project--wrapper {
-    width: 50%;
+    width: 39%;
+    gap: 2.4rem;
   }
-  
+
   .highlighted_project--wrapper .project-title {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-weight: inherit;
-    font-size: 3.2rem;
+    font-size: 2.75rem;
     line-height: 4.4rem;
   }
 
   .highlighted_project--wrapper .project-desc {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 400;
   }
+
+  .work-section_container--project_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    grid-gap: 2.4rem;
+  }
+
+  .project_list--li {
+    position: relative;
+    padding-top: 4.6rem;
+    padding-bottom: 1.6rem;
+    gap: 1.4rem;
+  }
+
+  .project_list--li:hover {
+    cursor: pointer;
+    outline: 2px solid #212121;
+  }
+
+  .project-detail {
+    padding: 0.8rem 1.6rem;
+    gap: 1.2rem;
+  }
+
+  .project-title {
+    font-size: 2.6rem;
+    line-height: 3.4rem;
+  }
+
+  .project-desc {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .technology-list {
+    gap: 1.2rem;
+  }
+
+  .technology-list .skills {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    padding: 1rem 1.2rem;
+  }
+
+  .project_list--li .project_list--li__cta {
+    padding: 1rem;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+  }
+
   .work-section_container--highlighted_project .technology-list .skills {
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem 1.2rem;
     font-size: 1rem;
   }
 
+  /* About Section */
+
   .about-section__container {
-    background-repeat: no-repeat;
-    background-image: url("./assets/illustration-about\ me.svg");
-    background-position: top -25% right -25%;
-    background-size: 50% 50%;
-    align-items: flex-start;
+    background-position: top right;
+    background-size: 40% 40%;
+    padding: 0 12rem;
   }
 
   .about-section__container .intro--container {
-    padding: 13rem 2.4rem;
-    gap: 2.4rem;
-    width: 65%;
+    gap: 1.4rem;
+    width: 54%;
+    padding: 13rem 0;
     margin-bottom: 0;
   }
 
-  .about-section__container  .about-bottom {
+  .about-section__container .intro--container .intro--container__title {
+    font-size: 4.2rem;
+    line-height: 4.4rem;
+    letter-spacing: 0.37px;
+  }
+
+  .about-section__container .intro--container .intro--container__desc {
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+  }
+
+  .about-section__container .intro--container .intro--container__resumeBtn {
+    font-size: 1.25rem;
+    line-height: 2.4rem;
+    letter-spacing: 3%;
+    padding: 0.75rem 1.2rem;
+  }
+
+  .about-section__container .about-bottom {
     stroke: #fff;
     fill: #fff;
     width: 100%;
-    padding: 0 2.4rem;
+    padding: 0;
   }
 
   .developer--strength__container {
     flex-direction: row;
     gap: 5rem;
-    justify-content: space-between;
     width: 100%;
-    padding: 13rem 2.4rem;
+    padding: 13rem 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .main-header {
+    padding: 1.25rem 14.2rem;
+  }
+
+  .section-intro {
+    background-position: right top -5.75rem;
+    background-size: contain;
+    padding: 0 0 0 12rem;
+  }
+
+  .section-intro--text_wrapper {
+    gap: 2.4rem;
+    width: 52%;
+    padding: 19.2rem 0;
+  }
+
+  .section-intro__main-heading {
+    font-size: 7.2rem;
+    line-height: 8.15rem;
+  }
+
+  .section-intro__secondary-heading {
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    font-weight: 500;
+  }
+
+  .section-intro__description {
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+
+  .section-intro .navigation-list {
+    gap: 1.6rem;
+    left: -3.25rem;
+    top: 50%;
+    transform: translate(7rem, -50%) scale(1);
+  }
+
+  /* SECTION 2 (WORK SECTION) */
+
+  .work-section_container {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    padding: 10rem 14.2rem;
+  }
+
+  .section-headline--wrapper {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .work-section_container--heading {
+    font-size: 3.8rem;
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+  }
+
+  .work-bottom {
+    stroke: #212121;
+    width: 67%;
+  }
+  .work-section_container--highlighted_project {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .work-section_container--highlighted_project .image {
+    width: 52%;
+  }
+
+  .highlighted_project--wrapper {
+    width: 45%;
+    gap: 2.4rem;
+  }
+
+  .highlighted_project--wrapper .project-title {
+    font-family: "Crete Round", serif;
+    font-weight: inherit;
+    font-size: 4rem;
+    line-height: 5.2rem;
+  }
+
+  .highlighted_project--wrapper .project-desc {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  .work-section_container--highlighted_project .technology-list .skills {
+    padding: 1rem 1.2rem;
+    font-size: 1.5rem;
+  }
+
+  .highlighted_project--wrapper .project_list--li__cta {
+    padding: 1.2rem;
+    font-size: 1.7rem;
+    letter-spacing: 3%;
+    font-weight: bold;
+  }
+
+  .work-section_container--project_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+    grid-gap: 2.4rem;
+  }
+
+  .project_list--li {
+    position: relative;
+    padding-top: 4.6rem;
+    padding-bottom: 1.6rem;
+    gap: 1.4rem;
+  }
+
+  .project_list--li:hover {
+    cursor: pointer;
+    outline: 2px solid #212121;
+  }
+
+  .project-detail {
+    padding: 2.4rem 1.6rem 0.8rem 1.6rem;
+    gap: 1.2rem;
+  }
+
+  .project-title {
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+  }
+
+  .project-desc {
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+  }
+
+  .technology-list {
+    gap: 1.2rem;
+  }
+
+  .technology-list l.skills {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 1rem 1.2rem;
+  }
+
+  .project_list--li .project_list--li__cta {
+    padding: 1rem;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+  }
+
+  /* About Section */
+
+  .about-section__container {
+    background-position: top 12% right;
+    background-size: 40% auto;
+    padding: 0 14.2rem;
+  }
+
+  .about-section__container .intro--container {
+    gap: 2.4rem;
+    width: 57%;
+    padding: 13rem 0;
+    margin-bottom: 0;
+  }
+
+  .about-section__container .intro--container .intro--container__title {
+    font-size: 7.2rem;
+    line-height: 8.1rem;
+    letter-spacing: 0;
+  }
+
+  .about-section__container .intro--container .intro--container__desc {
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+
+  .about-section__container .intro--container .intro--container__resumeBtn {
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    letter-spacing: 3%;
+    padding: 1.2rem;
+  }
+
+  .about-section__container .about-bottom {
+    stroke: #fff;
+    fill: #fff;
+    width: 100%;
+    padding: 0;
+  }
+
+  .developer--strength__container {
+    padding: 13rem 0;
   }
 
   .strength-container {
@@ -723,29 +1002,41 @@ body {
   .strength-list {
     align-items: flex-start;
   }
-  
+
+  /* Form Section */
+
   .form-section__container {
+    padding: 13rem 14.2rem;
     flex-direction: row;
-    padding: 13rem 2.4rem;
+    justify-content: center;
+    gap: 2.4rem;
   }
-  
+
   .form-section__container .intro {
-    font-family: 'Inter', sans-serif;
-    font-size: 3.2rem;
-    line-height: 4.4rem;
-    color: #172b4d;
+    font-size: 4rem;
+    line-height: 5.2rem;
     text-align: left;
-    width: 47%;
+    width: 100%;
   }
 
   .form-section__container .form {
     gap: 2.4rem;
-    width: 45%;
+    width: 100%;
+  }
+
+  .inputs {
+    padding: 1.6rem;
+  }
+
+  .message {
+    padding-bottom: 0;
+    height: auto;
   }
 
   .form-section__container .form .btn {
     padding: 12px;
-    margin: 0;
-  }  
-  
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    margin-left: 0;
+  }
 }
