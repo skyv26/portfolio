@@ -38,7 +38,7 @@ In order to use the files you should have to clone it and then follow the instru
 ## Screenshot
 <div style="display: flex; flex-direction: column; gap: 1rem;">
 
-  <p>Challenged Design (Mobile Version Only)</p>
+  <p>Challenged Design (Mobile Version)</p>
   
   <div style="display: flex; gap: 5px; align-items: flex-start; justify-content: center;">
     <a href="./assets/screenshot_1.png" target="_blank"><img src="./assets/screenshot_1.png" width="auto" height="auto"/></a>
@@ -48,6 +48,15 @@ In order to use the files you should have to clone it and then follow the instru
     <a href="./assets/screenshot_5.png" target="_blank"><img src="./assets/screenshot_5.png" width="auto" height="auto"/></a>
   </div>
 </div>
+
+<br /> <br />
+<p>Challenged Design (Desktop Version)</p>
+  
+  <div style="display: flex; gap: 5px; align-items: flex-start; justify-content: center;">
+    <a href="./assets/desktop-screenshot.png" target="_blank"><img src="./assets/desktop-screenshot.png" width="auto" height="auto"/></a>
+  </div>
+</div>
+
 
 ## 📝 License
 
