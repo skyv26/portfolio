@@ -600,6 +600,10 @@ body {
     align-items: flex-start;
   }
 
+  .about-section__container:hover .intro--container__resumeBtn {
+    animation: btnEffect 1s ease-in-out 0.2s infinite;
+  }
+
   .about-section__container .intro--container {
     padding: 13rem 2.4rem;
     gap: 2.4rem;
@@ -614,12 +618,30 @@ body {
     padding: 0 2.4rem;
   }
 
+  .about-section__container .intro--container__title {
+    transition: ease-out 0.25s;
+  }
+
+  .about-section__container .intro--container__title:hover {
+    text-shadow: 4px 4px #fff;
+    transition: ease-in 0.25s;
+  }
+
   .developer--strength__container {
     flex-direction: row;
     gap: 5rem;
     justify-content: space-between;
     width: 100%;
     padding: 13rem 2.4rem;
+  }
+
+  .developer--strength__container .strength-container__skill {
+    transition: ease-out 0.25s;
+  }
+
+  .developer--strength__container .strength-container__skill:hover {
+    text-decoration: 4px underline #fff;
+    transition: ease-in 0.25s;
   }
 
   .strength-container {
