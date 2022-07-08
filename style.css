@@ -689,6 +689,20 @@ body {
     cursor: pointer;
     animation: btnEffect 1s ease-in-out 0.2s infinite;
   }
+
+  .footer .navigation-list .navigation-list__social--link,
+  .footer .navigation-list .navigation-list__social--link svg {
+    transition: ease-out 0.25s;
+  }
+
+  .footer .navigation-list .navigation-list__social--link:hover svg {
+    transform: scale(1.25);
+    transition: ease-in 0.25s;
+  }
+
+  .footer .navigation-list .navigation-list__social--link:hover svg path {
+    fill: crimson;
+  }
 }
 
 @media (min-width: 1024px) {
