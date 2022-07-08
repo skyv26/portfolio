@@ -702,25 +702,24 @@ body {
     padding-bottom: 1.6rem;
     gap: 1.4rem;
   }
-  
+
   .project_list--li:hover {
     cursor: pointer;
-    background:  url("./assets/random-project-background.png");
+    background: url("./assets/random-project-background.png");
     outline: 2px solid #212121;
     padding-bottom: 0;
   }
-  
-  
+
   .project-detail {
     padding: 0.8rem 1.6rem;
     gap: 1.2rem;
     visibility: visible;
   }
-  
+
   .project_list--li:hover .project-detail {
     visibility: hidden;
   }
-  
+
   .technology-list {
     gap: 1.2rem;
   }
@@ -737,7 +736,6 @@ body {
     width: 100%;
     visibility: hidden;
   }
-
 
   .project_list--li:hover > .project_list--li__cta {
     visibility: visible;
