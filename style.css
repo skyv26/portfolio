@@ -446,6 +446,16 @@ body {
     font-size: 2.4rem;
   }
 
+  .main-header__logo {
+    transition: ease-out 0.5s;
+  }
+
+  .main-header__logo:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: ease-in 0.5s;
+  }
+
   .main-header__navigation--bar {
     display: none;
   }
@@ -454,10 +464,33 @@ body {
     display: flex;
   }
 
+  .menu__item .menu__item--link {
+    transition: ease-out 0.5s;
+  }
+
+  .menu__item .menu__item--link:hover {
+    color: crimson;
+    transition: ease-out 0.5s;
+  }
+
+  .menu__item .menu__item--link:hover .msg-icon path {
+    stroke: crimson;
+    transition: ease-in 0.5s;
+  }
+
   .section-intro {
     background-repeat: no-repeat;
     background-position: right -28rem top -11.25rem;
     background-size: contain;
+  }
+
+  .section-intro__main-heading {
+    transition: ease-in 0.5s;
+  }
+
+  .section-intro__main-heading:hover {
+    text-shadow: 4px 4px #fff;
+    transition: ease-in 0.5s;
   }
 
   .section-intro--text_wrapper {
@@ -499,6 +532,32 @@ body {
     align-items: flex-start;
   }
 
+  .work-section_container--highlighted_project:hover .project_list--li__cta {
+    animation: btnEffect 0.75s ease-in-out 0.25s infinite;
+  }
+
+  @keyframes btnEffect {
+    0% {
+      transform: scale(1);
+    }
+
+    25% {
+      transform: scale(1.15);
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+
+    75% {
+      transform: scale(1.15);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
   .work-section_container--highlighted_project .image {
     width: 70%;
   }
@@ -524,12 +583,25 @@ body {
     font-size: 1rem;
   }
 
+  .project_list--li {
+    transition: ease-out 0.5s;
+  }
+
+  .project_list--li:hover {
+    transform: scale(1.01);
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.4);
+  }
+
   .about-section__container {
-    background-repeat: no-repeat;
     background-image: url("./assets/illustration-about\ me.svg");
+    background-repeat: no-repeat;
     background-position: top -25% right -25%;
     background-size: 50% 50%;
     align-items: flex-start;
+  }
+
+  .about-section__container:hover .intro--container__resumeBtn {
+    animation: btnEffect 1s ease-in-out 0.2s infinite;
   }
 
   .about-section__container .intro--container {
@@ -546,12 +618,30 @@ body {
     padding: 0 2.4rem;
   }
 
+  .about-section__container .intro--container__title {
+    transition: ease-out 0.25s;
+  }
+
+  .about-section__container .intro--container__title:hover {
+    text-shadow: 4px 4px #fff;
+    transition: ease-in 0.25s;
+  }
+
   .developer--strength__container {
     flex-direction: row;
     gap: 5rem;
     justify-content: space-between;
     width: 100%;
     padding: 13rem 2.4rem;
+  }
+
+  .developer--strength__container .strength-container__skill {
+    transition: ease-out 0.25s;
+  }
+
+  .developer--strength__container .strength-container__skill:hover {
+    text-decoration: 4px underline #fff;
+    transition: ease-in 0.25s;
   }
 
   .strength-container {
@@ -574,6 +664,21 @@ body {
     color: #172b4d;
     text-align: left;
     width: 47%;
+    transition: ease-out 0.25s;
+  }
+
+  .form-section__container:hover .intro {
+    text-shadow: 3px 3px rgba(255, 0, 0, 0.5);
+    transition: ease-out 0.25s;
+  }
+
+  .form-section__container .form .inputs {
+    transition: ease-out 0.25s;
+  }
+
+  .form-section__container .form .inputs:hover {
+    background-color: rgba(0, 255, 255, 0.25);
+    transition: ease-in 0.25s;
   }
 
   .form-section__container .form {
@@ -584,6 +689,25 @@ body {
   .form-section__container .form .btn {
     padding: 12px;
     margin: 0;
+  }
+
+  .form-section__container .form .btn:hover {
+    cursor: pointer;
+    animation: btnEffect 1s ease-in-out 0.2s infinite;
+  }
+
+  .footer .navigation-list .navigation-list__social--link,
+  .footer .navigation-list .navigation-list__social--link svg {
+    transition: ease-out 0.25s;
+  }
+
+  .footer .navigation-list .navigation-list__social--link:hover svg {
+    transform: scale(1.25);
+    transition: ease-in 0.25s;
+  }
+
+  .footer .navigation-list .navigation-list__social--link:hover svg path {
+    fill: crimson;
   }
 }
 
