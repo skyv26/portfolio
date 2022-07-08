@@ -666,6 +666,15 @@ body {
     width: 47%;
   }
 
+  .form-section__container .form .inputs {
+    transition: ease-out 0.25s;
+  }
+
+  .form-section__container .form .inputs:hover {
+    background-color: rgba(0, 255, 255, 0.25);
+    transition: ease-in 0.25s;
+  }
+
   .form-section__container .form {
     gap: 2.4rem;
     width: 45%;
@@ -674,6 +683,11 @@ body {
   .form-section__container .form .btn {
     padding: 12px;
     margin: 0;
+  }
+
+  .form-section__container .form .btn:hover {
+    cursor: pointer;
+    animation: btnEffect 1s ease-in-out 0.2s infinite;
   }
 }
 
