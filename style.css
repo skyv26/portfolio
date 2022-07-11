@@ -533,7 +533,7 @@ body {
   }
 
   .work-section_container--highlighted_project:hover .project_list--li__cta {
-    animation: btnEffect 0.75s ease-in-out 0.25s infinite;
+    animation: btnEffect 0.25s ease-in-out 0.25s infinite;
   }
 
   @keyframes btnEffect {
@@ -584,7 +584,7 @@ body {
   }
 
   .project_list--li {
-    transition: ease-out 0.5s;
+    transition: ease-out 0.25s;
   }
 
   .project_list--li:hover {
@@ -830,6 +830,7 @@ body {
   .project_list--li:hover {
     cursor: pointer;
     background: url("./assets/random-project-background.png");
+    background-repeat: no-repeat;
     outline: 2px solid #212121;
     padding-bottom: 0;
   }
