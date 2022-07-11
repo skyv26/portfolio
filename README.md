@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://skyv26.github.io/portfolio/)
+[Live Project](https://skyv26.github.io/portfolio/)
 
 
 ## Getting Started
@@ -21,13 +21,21 @@
 In order to use the files you should have to clone it and then follow the instruction given below.
 
 ### Prerequisites
- - Good Knowlege on HTML and CSS (Flexbox, Box-Model, Background style and Image Tag)
- - Install Node.js, Npm Copy the linters from
-   https://github.com/microverseinc/linters-config/tree/master/html-css
+ - Good Knowlege on HTML and CSS (Semantics,Box-Model, Background style and Image Tag, Flexbox, Grid and Media Query)
+ - Install Node.js, Npm Copy the linters from https://github.com/microverseinc/linters-config/tree/master/html-css
+ - Please install the HTML, CSS and Lighthouse linters using Node Package Manager by typing below commands
+   
+   * npm install -g @lhci/cli@0.7.x (For LightHouse linter)
+   * npm install --save-dev hint@7.x
+          [ -f .hintrc ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/html-css/.hintrc (For HTML linter)
+   * npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+          [ -f .stylelintrc.json ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/html-css/.stylelintrc.json
 
 ### Setup
-    use "git clone https://github.com/skyv26/portfolio.git"
-
+- **use "git clone https://github.com/skyv26/portfolio.git"**
+- After adding html skeleton and adding style make sure your work by running test linters by typing following commands
+  * npx hint . **[For HTML debugging]**
+  * npx stylelint "**/*.{css,scss}"   **[For CSS debugging]**
 
 ## Authors
 
