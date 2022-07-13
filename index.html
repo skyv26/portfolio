@@ -19,47 +19,47 @@
     <link rel="stylesheet" href="./style.css" type="text/css" />
   </head>
   <body>
-    <header class="main-header">
-      <p class="main-header__logo">@skyv</p>
+    <header class="main-header" role="group">
+      <span aria-label="skyv logo" class="main-header__logo" tabindex="0">@skyv</span>
       <nav class="main-header__navigation--menu">
         <i class="fas fa-bars main-header__navigation--bar"></i>
         <ul class="main-header__navigation--menu__list">
           <li class="menu__item">
             <a
+              role="button"
               href="#"
-              target="_blank"
-              rel="noopener noreferrer"
               class="menu__item--link"
+              aria-label="navigate to portfolio section"
               >Portfolio</a
             >
           </li>
 
           <li class="menu__item">
             <a
+              role="button"
               href="#"
-              target="_blank"
-              rel="noopener noreferrer"
               class="menu__item--link"
+              aria-label="navigate to about section"
               >About</a
             >
           </li>
 
           <li class="menu__item">
             <a
+              role="button"
               href="#"
-              target="_blank"
-              rel="noopener noreferrer"
               class="menu__item--link"
+              aria-label="navigate to contact section"
               >Contact</a
             >
           </li>
 
           <li class="menu__item">
             <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
+              role="button"
+              href="mailto:dev.aakashv@gmail.com"
               class="menu__item--link"
+              aria-label="send an email to dev.aakashv@gmail.com"
             >
               <svg
                 width="24"
@@ -81,7 +81,7 @@
       </nav>
     </header>
     <main>
-      <section class="section-intro">
+      <section class="section-intro" role="group" tabindex="0">
         <div class="section-intro--text_wrapper">
           <h1 class="section-intro__main-heading">
             Hey There.<br />I’m Aakash
@@ -101,6 +101,7 @@
                 href="https://github.com/skyv26"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="aakash's github profile"
               >
                 <svg
                   width="24"
@@ -135,6 +136,7 @@
                 href="https://www.linkedin.com/in/devaakash/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="aakash's linkedin profile"
               >
                 <svg
                   width="24"
@@ -177,6 +179,7 @@
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="aakash's angel-list profile"
               >
                 <svg
                   width="24"
@@ -211,6 +214,7 @@
                 href="https://twitter.com/vrma_aakash"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="aakash's twitter profile"
               >
                 <svg
                   width="24"
@@ -255,6 +259,7 @@
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="aakash's medium blog profile"
               >
                 <svg
                   width="24"
@@ -276,7 +281,7 @@
 
       <!-- WORK SECTION -->
 
-      <section class="work-section_container">
+      <section class="work-section_container" role="group" tabindex="0">
         <div class="section-headline--wrapper">
           <h2 class="work-section_container--heading">My Recent Works</h2>
           <svg width="795" height="2" viewBox="0 0 795 2" fill="none" xmlns="http://www.w3.org/2000/svg" class="work-bottom">
@@ -285,7 +290,7 @@
         </div>
 
         <div class="work-section_container--highlighted_project">
-          <img src="./assets/highlighted-project-image.svg" alt="" class="image"/>
+          <img src="./assets/highlighted-project-image.svg" alt="feature project" class="image"/>
           <div class="highlighted_project--wrapper">
             <h3 class="project-title">Multi-Post Stories</h3>
             <p class="project-desc">
@@ -301,10 +306,9 @@
               <li class="skills">ruby</li>
             </ul>
             <a
+              role="button"
               href="#"
               class="project_list--li__cta"
-              target="_blank"
-              rel="noopener noreferrer"
               >See Project</a
             >
           </div>
@@ -447,7 +451,7 @@
 
       <!-- About Section -->
 
-      <section class="about-section__container">
+      <section class="about-section__container" role="group" tabindex="0">
         <div class="intro--container">
           <h2 class="intro--container__title">About me</h2>
           <p class="intro--container__desc">
@@ -471,7 +475,7 @@
 
         <ul class="developer--strength__container">
           <li class="strength-container">
-            <p class="strength-container__skill"><span class="icon lang-icon"></span>Language</p>
+            <h3 class="strength-container__skill"><span class="icon lang-icon"></span>Language</h3>
             <ul class="strength-list">
               <li class="skill">JavaScript</li>
               <li class="skill">Ruby</li>
@@ -480,7 +484,7 @@
             </ul>
           </li>
           <li class="strength-container">
-            <p class="strength-container__skill"><span class="icon framework-icon"></span>Frameworks</p>
+            <h3 class="strength-container__skill"><span class="icon framework-icon"></span>Frameworks</h3>
             <ul class="strength-list">
               <li class="skill">Bootstrap</li>
               <li class="skill">Ruby on Rails</li>
@@ -490,7 +494,7 @@
             </ul>
           </li>
           <li class="strength-container">
-            <p class="strength-container__skill"><span class="icon skills-icon"></span>Skills</p>
+            <h3 class="strength-container__skill"><span class="icon skills-icon"></span>Skills</h3>
             <ul class="strength-list">
               <li class="skill">Codekit</li>
               <li class="skill">Github</li>
@@ -502,7 +506,7 @@
         </ul>
       </section>
 
-      <section class="form-section__container">
+      <section class="form-section__container" role="group" tabindex="0">
         <h2 class="intro">
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
@@ -517,6 +521,7 @@
             name="name"
             class="inputs"
             maxlength="30"
+            aria-label="please enter your"
             placeholder="Full name"
             required
           />
@@ -524,6 +529,7 @@
             type="email"
             name="_replyto"
             class="inputs"
+            aria-label="please enter your"
             placeholder="Email address"
             required
           />
@@ -532,10 +538,11 @@
             name="message"
             class="inputs message"
             maxlength="500"
+            aria-label="please"
             placeholder="Enter text here"
             required
           ></textarea>
-          <input type="submit" class="btn" value="Get in touch" />
+          <input type="submit" aria-label="submit" class="btn" value="Get in touch" />
         </form>
       </section>
     </main>
@@ -547,6 +554,7 @@
             href="https://github.com/skyv26"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="aakash's github profile"
           >
             <svg
               width="24"
@@ -581,6 +589,7 @@
             href="https://www.linkedin.com/in/devaakash/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="aakash's linkedin profile"
           >
             <svg
               width="24"
@@ -623,6 +632,7 @@
             href="#"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="aakash's angel-list profile"
           >
             <svg
               width="24"
@@ -657,6 +667,7 @@
             href="https://twitter.com/vrma_aakash"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="aakash's twitter profile"
           >
             <svg
               width="24"
@@ -701,6 +712,7 @@
             href="#"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="aakash's medium blog profile"
           >
             <svg
               width="24"
