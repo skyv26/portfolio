@@ -238,7 +238,7 @@ body {
 }
 
 .project_list--li__cta {
-  background-color: #ff6b00;
+  background-color: #ba4d00;
   font-family: "Inter", sans-serif;
   line-height: 2.4rem;
   color: #fff;
@@ -279,7 +279,7 @@ body {
   font-size: 7.2rem;
   line-height: 8.8rem;
   letter-spacing: 0.37px;
-  color: #f55800;
+  color: #ba4d00;
 }
 
 .about-section__container .intro--container .intro--container__desc {
@@ -298,7 +298,7 @@ body {
   letter-spacing: 3%;
   text-align: center;
   padding: 1.2rem;
-  background-color: #f55800;
+  background-color: #ba4d00;
   text-decoration: none;
   color: #fff;
   width: max-content;
@@ -419,7 +419,7 @@ body {
 .form-section__container .form .btn {
   padding: 12px;
   border: none;
-  background-color: #ff6b00;
+  background-color: #ba4d00;
   width: max-content;
   font-family: "Inter", sans-serif;
   font-weight: bold;
@@ -668,7 +668,7 @@ body {
   }
 
   .form-section__container:hover .intro {
-    text-shadow: 3px 3px rgba(255, 0, 0, 0.5);
+    text-shadow: 3px 3px rgba(186, 77, 0, 0.6);
     transition: ease-out 0.25s;
   }
 
@@ -810,7 +810,8 @@ body {
   }
 
   .highlighted_project--wrapper .project-desc {
-    font-size: 1rem;
+    font-size: 1.6rem;
+    line-height: 2.25rem;
     font-weight: 400;
   }
 
