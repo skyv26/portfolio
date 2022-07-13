@@ -9,7 +9,7 @@
 }
 
 *:focus {
-  outline: 4px solid orange;
+  outline: 4px solid rgba(255, 102, 0, 0.587);
 }
 
 /* END of CSS Resetter */
@@ -537,7 +537,7 @@ body {
   }
 
   .work-section_container--highlighted_project:hover .project_list--li__cta {
-    animation: btnEffect 0.25s ease-in-out 0.25s infinite;
+    animation: btnEffect 0.75s ease-in-out 0.75s infinite;
   }
 
   @keyframes btnEffect {
