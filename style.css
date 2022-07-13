@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: 4px solid orange;
+}
+
 /* END of CSS Resetter */
 
 html {
