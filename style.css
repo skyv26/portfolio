@@ -41,7 +41,8 @@ body {
   font-family: "Inter", sans-serif;
   line-height: 2rem;
   font-size: 2rem;
-  text-shadow: 1px 1px rgba(255, 255, 255, 0.729), 2px 2px rgba(128, 128, 128, 0.613);
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.729),
+    2px 2px rgba(128, 128, 128, 0.613);
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -67,6 +68,7 @@ body {
   background-color: rgb(60, 58, 57);
   width: 100%;
   min-height: 100%;
+  padding: 2.4rem;
 }
 
 .mobile-menu--nav {
@@ -79,8 +81,8 @@ body {
 }
 
 .menu-btn--close_icon {
-  width: 24px; 
-  height: 24px; 
+  width: 24px;
+  height: 24px;
   display: block;
   align-self: flex-end;
 }
@@ -94,6 +96,28 @@ body {
   line-height: 2rem;
   font-weight: 600;
   vertical-align: middle;
+}
+
+/* Nav links for mobile menu */
+.main-header__navigation--menu__list .menu__item .helper-nav-link {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 50px;
+  color: #fff5e1;
+  position: relative;
+}
+
+.main-header__navigation--menu__list .menu__item .helper-nav-link::after {
+  content: "";
+  position: absolute;
+  background-color: #6f6c6b;
+  width: 310px;
+  height: 1px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 65px;
+  left: 0;
+  bottom: 0;
 }
 
 .msg-icon {
@@ -209,7 +233,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("./assets/random-project-background.png");
+  background: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url("./assets/random-project-background.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center top -0.6rem;
@@ -464,7 +493,12 @@ body {
   border-top: 1px solid #dfe1e6;
 }
 
-.footer .navigation-list .navigation-list__social .navigation-list__social--link svg path {
+.footer
+  .navigation-list
+  .navigation-list__social
+  .navigation-list__social--link
+  svg
+  path {
   fill: #505f79;
 }
 
