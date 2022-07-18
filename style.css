@@ -41,7 +41,8 @@ body {
   font-family: "Inter", sans-serif;
   line-height: 2rem;
   font-size: 2rem;
-  text-shadow: 1px 1px rgba(255, 255, 255, 0.729),
+  text-shadow:
+    1px 1px rgba(255, 255, 255, 0.729),
     2px 2px rgba(128, 128, 128, 0.613);
   font-weight: bold;
   letter-spacing: 2px;
@@ -233,7 +234,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -493,12 +495,7 @@ body {
   border-top: 1px solid #dfe1e6;
 }
 
-.footer
-  .navigation-list
-  .navigation-list__social
-  .navigation-list__social--link
-  svg
-  path {
+.footer .navigation-list .navigation-list__social .navigation-list__social--link svg path {
   fill: #505f79;
 }
 
