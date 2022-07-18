@@ -23,6 +23,7 @@ body {
   height: 100%;
   width: 100%;
   margin: auto;
+  position: relative;
 }
 
 .main-header {
@@ -57,6 +58,17 @@ body {
   list-style: none;
 }
 
+.mobile-menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  background-color: rgb(60, 58, 57);
+  width: 100%;
+  min-height: 100%;
+}
+
 .main-header__navigation--menu__list .menu__item {
   padding: 1.2rem;
 }
@@ -73,7 +85,7 @@ body {
 }
 
 .msg-icon {
-  display: block;
+  display: none;
 }
 
 .msg-icon path {
