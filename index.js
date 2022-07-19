@@ -4,42 +4,30 @@ const mobileNavList = document.querySelector(
 );
 const mobileNav = document.querySelector('.main-header__navigation--menu');
 const menuItemLinks = document.querySelectorAll('.menu__item--link');
-const navLink = document.querySelector('.main-header__navigation--menu__list');
-const closeBtn = document.createElement('img');
-const navLinkChildren = Array.from(navLink.children);
+const mobileCloseMenuSrc = './assets/IconCancel.svg';
+const defaultMobileMenuBtnSrc = mobileMenu.getAttribute('src');
 
 mobileMenu.addEventListener('click', () => {
-  closeBtn.src = './assets/IconCancel.svg';
-  closeBtn.className = 'menu-btn--close_icon';
-  mobileNav.prepend(closeBtn);
-  mobileNav.classList.add('mobile-menu');
-  mobileNavList.classList.add('mobile-menu--nav');
-  mobileMenu.style.display = 'none';
+  const getMobileMenuBtnSrc = mobileMenu.getAttribute('src');
+  const navLink = document.querySelector('.main-header__navigation--menu__list');
+  if (getMobileMenuBtnSrc !== mobileCloseMenuSrc) {
+    mobileMenu.setAttribute('src', mobileCloseMenuSrc);
+  } else {
+    mobileMenu.setAttribute('src', defaultMobileMenuBtnSrc);
+  }
   navLink.classList.toggle('w-100');
-  navLinkChildren.slice(0, 3).forEach((link) => link.classList.toggle('border-bottom'));
-  navLinkChildren[navLinkChildren.length - 1].style = 'display: none;';
-  closeBtn.style.display = 'block';
-  document.body.style.position = 'fixed';
-  menuItemLinks.forEach((link) => link.classList.add('helper-nav-link'));
+  const navLinks = Array.from(navLink.children);
+  navLinks.forEach((link) => link.classList.toggle('border-bottom'));
+  mobileMenu.classList.toggle('active');
+  mobileNav.classList.toggle('mobile-menu');
+  document.body.classList.toggle('scroll-disable');
+  mobileNavList.classList.toggle('mobile-menu--nav');
+  menuItemLinks.forEach((link) => link.classList.toggle('helper-nav-link'));
 });
 
-const closeBtnHandler = () => {
-  mobileNav.classList.remove('mobile-menu');
-  mobileNavList.classList.remove('mobile-menu--nav');
-  mobileMenu.style.display = 'block';
-  closeBtn.style.display = 'none';
-  document.body.style.position = 'initial';
-  navLink.classList.toggle('w-100');
-  navLinkChildren.slice(0, 3).forEach((link) => link.classList.toggle('border-bottom'));
-  navLinkChildren[navLinkChildren.length - 1].style = 'display: block;';
-  menuItemLinks.forEach((link) => link.classList.remove('helper-nav-link'));
-};
-
-// adding an event handler to the menuBtnClose
-closeBtn.addEventListener('click', () => {
-  closeBtnHandler();
-});
-
-navLink.addEventListener('click', () => {
-  closeBtnHandler();
+mobileNav.addEventListener('click', (e) => {
+  const tagName = e.target.nodeName.toLowerCase();
+  if (tagName === 'li' || tagName === 'a') {
+    document.body.classList.remove('scroll-disable');
+  }
 });
