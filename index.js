@@ -7,7 +7,6 @@ const menuItemLinks = document.querySelectorAll('.menu__item--link');
 const mobileCloseMenuSrc = './assets/IconCancel.svg';
 const defaultMobileMenuBtnSrc = mobileMenu.getAttribute('src');
 
-
 const mobileMenuHandler = () => {
   const getMobileMenuBtnSrc = mobileMenu.getAttribute('src');
   const navLink = document.querySelector('.main-header__navigation--menu__list');
@@ -24,7 +23,7 @@ const mobileMenuHandler = () => {
   document.body.classList.toggle('scroll-disable');
   mobileNavList.classList.toggle('mobile-menu--nav');
   menuItemLinks.forEach((link) => link.classList.toggle('helper-nav-link'));
-}
+};
 
 mobileMenu.addEventListener('click', () => {
   mobileMenuHandler();
