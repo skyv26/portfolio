@@ -23,7 +23,6 @@ body {
   height: 100%;
   width: 100%;
   margin: auto;
-  position: relative;
 }
 
 .main-header {
@@ -68,8 +67,16 @@ body {
   top: 0;
   background-color: rgb(60, 58, 57);
   width: 100%;
-  min-height: 100%;
-  padding: 2.4rem;
+  min-height: 100vh;
+  padding: 1.6rem 2.4rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(111, 108, 107, 1);
 }
 
 .mobile-menu--nav {
@@ -108,21 +115,8 @@ body {
   position: relative;
 }
 
-.main-header__navigation--menu__list .menu__item .helper-nav-link::after {
-  content: "";
-  position: absolute;
-  background-color: #6f6c6b;
-  width: 310px;
-  height: 1px;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 65px;
-  left: 0;
-  bottom: 0;
-}
-
 .msg-icon {
-  display: none;
+  display: block;
 }
 
 .msg-icon path {
@@ -308,6 +302,12 @@ body {
   font-size: 1.7rem;
 }
 
+.project_list--li__cta:hover {
+  background-color: rgba(255, 245, 225, 1);
+  box-shadow: inset 0 0 0 2px rgb(184, 77, 0);
+  color: rgb(184, 77, 0);
+}
+
 .work-section_container--highlighted_project .project_list--li__cta {
   width: 12.4rem;
 }
@@ -357,7 +357,7 @@ body {
   letter-spacing: 3%;
   text-align: center;
   padding: 1.2rem;
-  background-color: #ba4d00;
+  background-color: rgb(184, 77, 0);
   text-decoration: none;
   color: #fff;
   width: max-content;
@@ -467,6 +467,9 @@ body {
   border: none;
   border-bottom: 1px solid #dbdad7;
   color: #3c3a39;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 
 .message {
@@ -530,6 +533,10 @@ body {
   .menu__item .menu__item--link:hover {
     color: crimson;
     transition: ease-out 0.5s;
+  }
+
+  .menu-btn--icon {
+    display: none !important;
   }
 
   .menu__item .menu__item--link:hover .msg-icon path {
@@ -1165,6 +1172,12 @@ body {
     line-height: 2.4rem;
     letter-spacing: 3%;
     padding: 1.2rem;
+  }
+
+  .about-section__container .intro--container .intro--container__resumeBtn:hover {
+    background-color: rgba(255, 245, 225, 1);
+    box-shadow: inset 0 0 0 2px rgb(184, 77, 0);
+    color: rgb(184, 77, 0);
   }
 
   .about-section__container .about-bottom {
