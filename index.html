@@ -22,12 +22,12 @@
     <header class="main-header" role="group">
       <span class="main-header__logo" tabindex="0">@skyv</span>
       <nav class="main-header__navigation--menu">
-        <i class="fas fa-bars main-header__navigation--bar"></i>
+        <img src="./assets/IconMenu.svg" alt="" class="menu-btn--icon" />
         <ul class="main-header__navigation--menu__list">
           <li class="menu__item">
             <a
               role="button"
-              href="#section-1"
+              href="#work-section"
               class="menu__item--link"
               aria-label="navigate to portfolio section"
               >Portfolio</a
@@ -37,7 +37,7 @@
           <li class="menu__item">
             <a
               role="button"
-              href="#section-2"
+              href="#about"
               class="menu__item--link"
               aria-label="navigate to about section"
               >About</a
@@ -47,7 +47,7 @@
           <li class="menu__item">
             <a
               role="button"
-              href="#section-3"
+              href="#contact"
               class="menu__item--link"
               aria-label="navigate to contact section"
               >Contact</a
@@ -281,16 +281,32 @@
 
       <!-- WORK SECTION -->
 
-      <section id="section-2" class="work-section_container" role="group" tabindex="0">
+      <section
+        id="work-section"
+        class="work-section_container"
+        role="group"
+        tabindex="0"
+      >
         <div class="section-headline--wrapper">
           <h2 class="work-section_container--heading">My Recent Works</h2>
-          <svg width="795" height="2" viewBox="0 0 795 2" fill="none" xmlns="http://www.w3.org/2000/svg" class="work-bottom">
+          <svg
+            width="795"
+            height="2"
+            viewBox="0 0 795 2"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="work-bottom"
+          >
             <path d="M794.5 1.00007L0.5 1" />
           </svg>
         </div>
 
         <div class="work-section_container--highlighted_project">
-          <img src="./assets/highlighted-project-image.svg" alt="feature project" class="image"/>
+          <img
+            src="./assets/highlighted-project-image.svg"
+            alt="feature project"
+            class="image"
+          />
           <div class="highlighted_project--wrapper">
             <h3 class="project-title">Multi-Post Stories</h3>
             <p class="project-desc">
@@ -305,10 +321,7 @@
               <li class="skills">bootstrap</li>
               <li class="skills">ruby</li>
             </ul>
-            <a
-              role="button"
-              href="#"
-              class="project_list--li__cta"
+            <a role="button" href="#" class="project_list--li__cta"
               >See Project</a
             >
           </div>
@@ -451,7 +464,12 @@
 
       <!-- About Section -->
 
-      <section id="section-3" class="about-section__container" role="group" tabindex="0">
+      <section
+        id="about"
+        class="about-section__container"
+        role="group"
+        tabindex="0"
+      >
         <div class="intro--container">
           <h2 class="intro--container__title">About me</h2>
           <p class="intro--container__desc">
@@ -469,13 +487,22 @@
           >
         </div>
 
-        <svg width="1156" height="17" viewBox="0 0 1156 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="about-bottom">
-          <path d="M0 9H1156" stroke="white"/>
-        </svg>          
+        <svg
+          width="1156"
+          height="17"
+          viewBox="0 0 1156 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="about-bottom"
+        >
+          <path d="M0 9H1156" stroke="white" />
+        </svg>
 
         <ul class="developer--strength__container">
           <li class="strength-container">
-            <h3 class="strength-container__skill"><span class="icon lang-icon"></span>Language</h3>
+            <h3 class="strength-container__skill">
+              <span class="icon lang-icon"></span>Language
+            </h3>
             <ul class="strength-list">
               <li class="skill">JavaScript</li>
               <li class="skill">Ruby</li>
@@ -484,7 +511,9 @@
             </ul>
           </li>
           <li class="strength-container">
-            <h3 class="strength-container__skill"><span class="icon framework-icon"></span>Frameworks</h3>
+            <h3 class="strength-container__skill">
+              <span class="icon framework-icon"></span>Frameworks
+            </h3>
             <ul class="strength-list">
               <li class="skill">Bootstrap</li>
               <li class="skill">Ruby on Rails</li>
@@ -494,7 +523,9 @@
             </ul>
           </li>
           <li class="strength-container">
-            <h3 class="strength-container__skill"><span class="icon skills-icon"></span>Skills</h3>
+            <h3 class="strength-container__skill">
+              <span class="icon skills-icon"></span>Skills
+            </h3>
             <ul class="strength-list">
               <li class="skill">Codekit</li>
               <li class="skill">Github</li>
@@ -506,7 +537,7 @@
         </ul>
       </section>
 
-      <section class="form-section__container" role="group" tabindex="0">
+      <section id="contact" class="form-section__container" role="group" tabindex="0">
         <h2 class="intro">
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
@@ -542,7 +573,12 @@
             placeholder="Enter text here"
             required
           ></textarea>
-          <input type="submit" aria-label="submit" class="btn" value="Get in touch" />
+          <input
+            type="submit"
+            aria-label="submit"
+            class="btn"
+            value="Get in touch"
+          />
         </form>
       </section>
     </main>
@@ -730,5 +766,6 @@
         </li>
       </ul>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
