@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
+  "module": "true",
   "description": "Personal portfolio project",
   "main": "index.html",
   "scripts": {
