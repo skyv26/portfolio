@@ -3,7 +3,7 @@ import popUpWindowModal from './portfolio/components/popUpWindowModal.js';
 
 const header = document.querySelector('.main-header');
 const workSection = document.querySelector('.work-section_container');
-// const form = document.querySelector('.form');
+const form = document.querySelector('.form');
 
 const ConvertStringToHTML = (str) => {
   const parser = new DOMParser();
@@ -100,6 +100,34 @@ document.body.addEventListener('click', (e) => {
   if (e.target.nodeName.toLowerCase() === 'img') {
     if (e.target.className.includes('project--close_icon')) {
       overlayModal.remove();
+    }
+  }
+});
+
+/* Contact Form Logic */
+
+const msg = document.createElement('p');
+msg.className = 'form-error--msg';
+
+form.addEventListener('click', function formSubmitHandler (e) {
+  const targetElement = e.target;
+  const full_name = this.querySelector('input[type="text"]').value;
+  const email = this.querySelector('input[type="email"]').value;
+  const message = this.querySelector('textarea').value;
+
+  const contactFormObject = {
+    full_name,
+    email,
+    message,
+  };
+
+  this.appendChild(msg);
+
+  if (targetElement.getAttribute('type') === 'submit') {
+    if (email !== email.toLowerCase()) {
+      // e.preventDefault();
+      msg.textContent = '** email letters should be in lowercase';
+      msg.classList.add('active');
     }
   }
 });
