@@ -323,6 +323,10 @@ body {
   color: rgb(52, 69, 99);
 }
 
+.project--close_icon {
+  cursor: pointer;
+}
+
 .modalWindow_sub--child--btn_wrapper {
   display: flex;
   flex-direction: row;
