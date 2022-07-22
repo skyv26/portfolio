@@ -602,6 +602,7 @@ body {
 .form-section__container .form {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .form-section__container {
@@ -1341,24 +1342,16 @@ body {
     max-width: max-content;
     height: 85%;
     max-height: max-content;
-    overflow: hidden;
-  }
-
-  .wrapper-1 {
-    gap: 1rem;
-  }
-
-  .wrapper-2 {
-    flex-direction: row;
+    gap: 4.4rem;
+    overflow: auto;
   }
 
   .modalWindowChildWrapper--Img {
-    display: block;
-    width: 60%;
+    width: 65%;
   }
 
   .wrapper-2 .modalWindow_sub--child {
-    width: 40%;
+    width: 35%;
     justify-content: space-between;
   }
 

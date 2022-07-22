@@ -10,7 +10,7 @@ const popUpWindowModal = (props) => `<div class="overlay" id="overlay">
         </ul>
       </div>
       <div class="modalWindowChildWrapper wrapper-2">
-        <img src=${props.image} alt="" class="pIcon modalWind elseowChildWrapper--Img">
+        <img src=${props.image} alt="" class="pIcon modalWindowChildWrapper--Img">
         <div class="modalWindow_sub--child">
           ${window.innerWidth < 768 ? `<p class="modalWindow_sub--child--desc">${props.full_desc.split(' ').slice(0, 60).join(' ')}</p>` : `<p class="modalWindow_sub--child--desc">${props.full_desc}</p>`}
           <ul class="modalWindow_sub--child--btn_wrapper">
