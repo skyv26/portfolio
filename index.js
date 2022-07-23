@@ -123,10 +123,23 @@ document.body.addEventListener('click', (e) => {
   }
 });
 
-/* Contact Form Logic */
+form.addEventListener('storage', function formSubmitHandler (e) {
+  const targetElement = e.target;
+  const full_name = this.querySelector('input[type="text"]').value;
+  const email = this.querySelector('input[type="email"]').value;
+  const message = this.querySelector('textarea').value;
 
-const msg = document.createElement('p');
-msg.className = 'form-error--msg';
+  const contactFormObject = {
+    full_name,
+    email,
+    message,
+  };
+
+  if (targetElement.classList[0] === 'inputs') {
+    console.log(JSON.stringify(contactFormObject));
+    localStorage.setItem('formData', JSON.stringify(contactFormObject));
+  }
+});
 
 form.addEventListener('submit', function formSubmitHandler(e) {
   const email = this.querySelector('input[type="email"]').value;
