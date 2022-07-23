@@ -125,6 +125,7 @@ document.body.addEventListener('click', (e) => {
   }
 });
 
+// Forma data localStorage logic
 const getLocalStorageData = localStorage.getItem('formData');
 
 if (getLocalStorageData !== null) {
@@ -154,6 +155,7 @@ form.addEventListener('input', (e) => {
   localStorage.setItem('formData', JSON.stringify(contactFormObject));
 });
 
+// Form validation logic
 const msg = document.createElement('p');
 msg.className = 'form-error--msg';
 
