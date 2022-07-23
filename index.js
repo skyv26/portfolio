@@ -100,9 +100,11 @@ workSectionContainer.appendChild(projectUnorderedList);
 
 workSection.addEventListener('click', (e) => {
   const getElement = e.target;
-  if (getElement.nodeName.toLowerCase() === 'a' && getElement.getAttribute('role') === 'button') {
+  if (
+    getElement.nodeName.toLowerCase() === 'a'
+    && getElement.getAttribute('role') === 'button'
+  ) {
     if (getElement.classList[1].includes('proj_id')) {
-      // console.log(getElement.classList[1].split('-')[1]);
       popUpHandler(
         projectList.projectGrid[
           Number(getElement.classList[1].split('-')[1]) - 1
@@ -123,8 +125,37 @@ document.body.addEventListener('click', (e) => {
   }
 });
 
-/* Contact Form Logic */
+// Forma data localStorage logic
+const getLocalStorageData = localStorage.getItem('formData');
 
+if (getLocalStorageData !== null) {
+  document.querySelector('input[type="text"]').value = JSON.parse(getLocalStorageData).name;
+  document.querySelector('input[type="email"]').value = JSON.parse(getLocalStorageData).email;
+  document.querySelector('textarea.inputs').value = JSON.parse(getLocalStorageData).message;
+}
+
+const obj = JSON.parse(getLocalStorageData);
+const contactFormObject = {
+  name: obj ? obj.name : '',
+  email: obj ? obj.email : '',
+  message: obj ? obj.message : '',
+};
+
+form.addEventListener('input', (e) => {
+  const targetElement = e.target;
+
+  if (targetElement.getAttribute('type') === 'text') {
+    contactFormObject.name = targetElement.value;
+  } else if (targetElement.getAttribute('type') === 'email') {
+    contactFormObject.email = targetElement.value;
+  } else {
+    contactFormObject.message = e.target.value;
+  }
+
+  localStorage.setItem('formData', JSON.stringify(contactFormObject));
+});
+
+// Form validation logic
 const msg = document.createElement('p');
 msg.className = 'form-error--msg';
 
