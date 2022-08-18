@@ -72,6 +72,11 @@ projectUnorderedList.className = 'work-section_container--project_list';
 
 const projectWorkList = projectList.projectGrid.map(
   (li) => `<li tabindex="0" class="project_list--li">
+  <img
+    src=${li.image}
+    alt="feature project"
+    class="image"
+  />
   <div class="project-detail">
     <h3 class="project-title">${li.title}</h3>
     <p class="project-desc">

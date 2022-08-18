@@ -393,33 +393,57 @@ body {
 .work-section_container--project_list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(32.7rem, 1fr));
-  grid-gap: 2.4rem;
+  grid-gap: 2.6rem;
 }
 
 .project_list--li {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url('./assets/random-project-background.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center top -0.6rem;
+  height: 35rem;
   padding-top: 7.6rem;
   gap: 1.4rem;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.project_list--li .image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 100%;
+  z-index: 1;
 }
 
 .project-detail {
+  position: absolute;
   display: flex;
   flex-direction: column;
-  padding: 0.8rem 1.6rem;
+  padding: 3.2rem 1.6rem;
   gap: 1.2rem;
+  height: inherit;
   color: #fff;
+  z-index: 3;
+}
+
+.project-detail::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0.5) 0.25%,
+      rgba(38, 38, 38, 0.9) 70.94%
+    );
+  z-index: -1;
 }
 
 .project-title {
@@ -463,6 +487,7 @@ body {
   text-decoration: none;
   padding: 1.2rem;
   font-size: 1.7rem;
+  z-index: 3;
 }
 
 .project_list--li__cta:hover {
@@ -808,7 +833,8 @@ body {
   }
 
   .work-section_container--highlighted_project .image {
-    width: 70%;
+    width: 50%;
+    box-shadow: 0 0 20px 5px rgb(213, 213, 213);
   }
 
   .highlighted_project--wrapper {
@@ -1079,21 +1105,18 @@ body {
 
   .project_list--li {
     position: relative;
-    padding-top: 4.6rem;
-    padding-bottom: 1.6rem;
+    height: 27rem;
     gap: 1.4rem;
   }
 
   .project_list--li:hover {
     cursor: pointer;
-    background: url('./assets/random-project-background.png');
-    background-repeat: no-repeat;
     outline: 2px solid #212121;
     padding-bottom: 0;
   }
 
   .project-detail {
-    padding: 0.8rem 1.6rem;
+    padding: 3.4rem 1.6rem;
     gap: 1.2rem;
     visibility: visible;
   }
@@ -1373,8 +1396,8 @@ body {
 
   .project_list--li {
     position: relative;
-    padding-top: 4.6rem;
-    padding-bottom: 1.6rem;
+    padding-top: 6.6rem;
+    height: 33rem;
     gap: 1.4rem;
   }
 
