@@ -419,7 +419,6 @@ body {
   z-index: 1;
 }
 
-
 .project-detail {
   position: absolute;
   display: flex;
@@ -438,11 +437,12 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0.5) 0.25%,
-    rgba(38, 38, 38, 0.9) 70.94%
-  );
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0.5) 0.25%,
+      rgba(38, 38, 38, 0.9) 70.94%
+    );
   z-index: -1;
 }
 
@@ -805,7 +805,6 @@ body {
     flex-direction: row;
     align-items: flex-start;
   }
-
 
   .work-section_container--highlighted_project:hover .project_list--li__cta {
     animation: btnEffect 0.75s ease-in-out 0.75s infinite;
