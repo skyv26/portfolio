@@ -1,9 +1,9 @@
 const projectList = {
   featuredProject: {
     id: 10,
-    title: 'Rasbian Community Conference',
-    short_desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    full_desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    title: 'Raspbian Community Conference',
+    short_desc: "The Raspbian Community Conference is a brand-new event led by the Raspberry Pi Foundation with lots of help from our community of young people, educators, hobbyists, and tech enthusiasts. It will be a chance for people of all ages and skill levels to have a go at getting creative with tech.",
+    full_desc: "The Raspbian Community Conference is a brand-new event led by the Raspberry Pi Foundation with lots of help from our community of young people, educators, hobbyists, and tech enthusiasts. It will be a chance for people of all ages and skill levels to have a go at getting creative with tech, as well as a celebration of all that our digital makers have already learnt and achieved, whether through taking part in Code Clubs, CoderDojos, or Raspberry Jams or through trying our resources at home.",
     live_url: 'https://skyv26.github.io/raspbian-community-conference/',
     source_url: 'https://github.com/skyv26/raspbian-community-conference',
     image: './assets/raspbian-community-conference-d.webp',
@@ -13,14 +13,14 @@ const projectList = {
   projectGrid: [
     {
       id: 1,
-      title: 'Huddle Landing Page Single Section',
-      short_desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-      full_desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      live_url: 'https://faq-lac.vercel.app/',
-      source_url: 'https://github.com/skyv26/faq-accordian-card',
-      image: './assets/accordian.webp',
-      model_image: './assets/accordian-d.webp',
-      tags: ['react.js', 'css'],
+      title: 'Leaderboard Basic App',
+      short_desc: "This project aims to create a leaderboard system to track and display user performance in an engaging way. Through the use of an interactive...more",
+      full_desc: "This project aims to create a leaderboard system to track and display user performance in an engaging way. Through the use of an interactive and intuitive interface, users can quickly and easily view scores and rankings of their peers. The leaderboard system is driven by a backend database that stores and processes user data, allowing for easy data retrieval and presentation. The system will be designed with scalability in mind, so that it can easily be adjusted to accommodate larger user bases and more complex data set requirements.",
+      live_url: 'https://skyv26.github.io/leaderboard/',
+      source_url: 'https://github.com/skyv26/leaderboard',
+      image: './assets/leaderboard-m.webp',
+      model_image: './assets/leaderboard.webp',
+      tags: ['html', 'css', 'javascript'],
     },
     {
       id: 2,
