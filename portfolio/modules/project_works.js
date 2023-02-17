@@ -14,7 +14,7 @@ const projectList = {
     {
       id: 1,
       title: 'Leaderboard Basic App',
-      short_desc: 'This project aims to create a leaderboard system to track and display user performance in an engaging way. Through the use of an interactive...more',
+      short_desc: 'This project aims to create a leaderboard system to track and display user performance in an engaging way ...more',
       full_desc: 'This project aims to create a leaderboard system to track and display user performance in an engaging way. Through the use of an interactive and intuitive interface, users can quickly and easily view scores and rankings of their peers. The leaderboard system is driven by a backend database that stores and processes user data, allowing for easy data retrieval and presentation. The system will be designed with scalability in mind, so that it can easily be adjusted to accommodate larger user bases and more complex data set requirements.',
       live_url: 'https://skyv26.github.io/leaderboard/',
       source_url: 'https://github.com/skyv26/leaderboard',
@@ -25,7 +25,7 @@ const projectList = {
     {
       id: 2,
       title: 'Random Advice Generator App',
-      short_desc: 'Random advice generator apps can help users to have an enjoyable experience. They can provide a fun and entertaining way to get helpful tips and ...more',
+      short_desc: 'Random advice generator apps can help users to have an enjoyable experience. They can provide ...more',
       full_desc: 'Random advice generator apps can help users to have an enjoyable experience. They can provide a fun and entertaining way to get helpful tips and advice that can be useful in many different situations. In addition, they can be a fast and convenient way to receive advice as they are usually available on mobile devices. Overall, random advice generator apps are a unique and helpful way to get advice on various topics. These apps can provide helpful tips and advice that can be useful in many different situations. In addition, they are convenient and can be used on mobile devices.',
       live_url: 'https://skyadvice.netlify.app/',
       source_url: 'https://github.com/skyv26/advice-generator-app',
@@ -36,7 +36,7 @@ const projectList = {
     {
       id: 3,
       title: 'Sneakers Product Page',
-      short_desc: 'Introducing the newest addition to your wardrobe: the ultimate sneaker. Sleek and stylish, this shoe is perfect for everyday wear. Crafted with quality ...more',
+      short_desc: 'Introducing the newest addition to your wardrobe: the ultimate sneaker. Sleek and stylish, this ...more',
       full_desc: "Introducing the newest addition to your wardrobe: the ultimate sneaker. Sleek and stylish, this shoe is perfect for everyday wear. Crafted with quality materials, this shoe boasts a unique combination of comfort and durability. The upper is made from breathable fabric and the midsole is designed for superior shock absorption. The outsole has a textured pattern for superior traction and grip, so you can take each step with confidence. Whether you're hitting the gym, going for a run, or just out and about, these shoes will keep you looking and feeling your best. Upgrade your style today with the ultimate sneaker.",
       live_url: 'https://sneekers.netlify.app/',
       source_url: 'https://github.com/skyv26/sneakers',
@@ -47,7 +47,7 @@ const projectList = {
     {
       id: 4,
       title: 'Interactive Pricing Component',
-      short_desc: 'The app also provides several features that make it easier to manage your budget. It has a price comparison feature that compares different routes ...more',
+      short_desc: 'The app also provides several features that make it easier to manage your budget. It has a ...more',
       full_desc: 'The app also provides several features that make it easier to manage your budget. It has a price comparison feature that compares different routes and lets you choose the cheapest option. It also has an alert system that informs you when a route is about to become more expensive, so you can choose an alternate route. Traffic-Based Pricing is a great tool for anyone who needs to get around quickly and cheaply. With its easy setup and intuitive features, it makes managing your daily transportation costs easier and more efficient. Try it out today and see the savings!',
       live_url: 'https://skyv26.github.io/interactive-price-component/',
       source_url: 'https://github.com/skyv26/interactive-price-component',
@@ -58,7 +58,7 @@ const projectList = {
     {
       id: 5,
       title: 'Ticketo Event Booking App',
-      short_desc: 'Ticketmaster Entertainment, Inc. is an American ticket sales and distribution company based in Beverly Hills, California with operations in many countries ...more',
+      short_desc: 'Ticketmaster Entertainment, Inc. is an American ticket sales and distribution company based in ...more',
       full_desc: 'Ticketmaster Entertainment, Inc. is an American ticket sales and distribution company based in Beverly Hills, California with operations in many countries around the world. In 2010, it merged with Live Nation under the name Live Nation Entertainment. Ticketmaster charges a fee on tickets purchased and resold on the platform.',
       live_url: 'https://myticketo.netlify.app/',
       source_url: 'https://github.com/skyv26/ticket-master',
@@ -69,7 +69,7 @@ const projectList = {
     {
       id: 6,
       title: 'Splitter Tip Calculator App',
-      short_desc: 'Tip Calculator is a mobile app that makes calculating tips easier and more convenient. It features a user-friendly interface and allows users to  ...more',
+      short_desc: 'Tip Calculator is a mobile app that makes calculating tips easier and more convenient. It features ...more',
       full_desc: "Tip Calculator is a mobile app that makes calculating tips easier and more convenient. It features a user-friendly interface and allows users to quickly and accurately calculate the amount of tip they should leave. The app also provides basic recommendations regarding the amount of tip to leave and allows users to adjust the amount of tip to suit their needs. It also provides users with an option to split the bill. Tip Calculator helps users save time and money by providing accurate and reliable calculations. All calculations are done in the app, meaning users don't have to worry about mistakes or incorrect calculations again!",
       live_url: 'https://tip-calculator-2.netlify.app/',
       source_url: 'https://github.com/skyv26/Tip-Calculator-App',
