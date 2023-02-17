@@ -865,7 +865,6 @@ main .navigation-list__social--link svg path {
 
   .work-section_container--project_list {
     grid-template-columns: repeat(auto-fit, minmax(32.7rem, 1fr));
-    justify-content: space-between;
   }
 
   .work-section_container--highlighted_project:hover .project_list--li__cta {
