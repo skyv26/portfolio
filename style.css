@@ -12,34 +12,42 @@
   width: 1px;
   height: 1px;
 }
+
 ::-webkit-scrollbar-button {
-  width: 0px;
-  height: 0px;
+  width: 0;
+  height: 0;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #e1e1e1;
-  border: 0px none #ffffff;
+  border: 0 none #fff;
   border-radius: 50px;
 }
-::-webkit-scrollbar-thumb:hover {
-  background: #ffffff;
-}
-::-webkit-scrollbar-thumb:active {
-  background: #000000;
-}
+
 ::-webkit-scrollbar-track {
-  background: #666666;
-  border: 0px none #ffffff;
+  background: #666;
+  border: 0 none #fff;
   border-radius: 50px;
 }
-::-webkit-scrollbar-track:hover {
-  background: #666666;
-}
-::-webkit-scrollbar-track:active {
-  background: #333333;
-}
+
 ::-webkit-scrollbar-corner {
   background: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #000;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #666;
+}
+
+::-webkit-scrollbar-track:active {
+  background: #333;
 }
 
 /* END of CSS Resetter */
@@ -209,8 +217,8 @@ body {
 }
 
 @keyframes spinner {
-  from {transform:rotate(0deg);}
-  to {transform:rotate(360deg);}
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .spin-container {
@@ -737,12 +745,12 @@ body {
   background-color: white;
 }
 
-main .navigation-list__social--link svg path {
-  fill: #ffffff;
-}
-
 .navigation-list__social--link svg path {
   fill: #505f79;
+}
+
+main .navigation-list__social--link svg path {
+  fill: #fff;
 }
 
 .form-error--msg {
@@ -795,6 +803,10 @@ main .navigation-list__social--link svg path {
 
   .main-header__navigation--menu .menu-btn--icon {
     display: none;
+  }
+
+  .navigation-list .navigation-list__social--link:hover svg path {
+    fill: crimson;
   }
 
   .menu__item .menu__item--link:hover .msg-icon path {
@@ -1018,10 +1030,6 @@ main .navigation-list__social--link svg path {
   .navigation-list .navigation-list__social--link:hover svg {
     transform: scale(1.25);
     transition: ease-in 0.25s;
-  }
-
-  .navigation-list .navigation-list__social--link:hover svg path {
-    fill: crimson;
   }
 
   .form-error--msg {
