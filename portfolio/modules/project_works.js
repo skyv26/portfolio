@@ -8,7 +8,7 @@ const projectList = {
     source_url: 'https://github.com/skyv26/raspbian-community-conference',
     image: './assets/raspbian-community-conference-d.webp',
     model_image: './assets/raspbian-community-conference-d.webp',
-    tags: ['html', 'scss', 'javascript'],
+    tags: ['HTML', 'SCSS', 'JavaScript'],
   },
   projectGrid: [
     {
@@ -20,7 +20,7 @@ const projectList = {
       source_url: 'https://github.com/skyv26/leaderboard',
       image: './assets/leaderboard-m.webp',
       model_image: './assets/leaderboard.webp',
-      tags: ['html', 'css', 'javascript'],
+      tags: ['HTML', 'CSS', 'JavaScript'],
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const projectList = {
       source_url: 'https://github.com/skyv26/advice-generator-app',
       image: './assets/advice-m.webp',
       model_image: './assets/random-advice-d.webp',
-      tags: ['react.js', 'css', 'jsx'],
+      tags: ['React.js', 'CSS', 'API'],
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ const projectList = {
       source_url: 'https://github.com/skyv26/sneakers',
       image: './assets/sneekers.webp',
       model_image: './assets/sneekr-d.webp',
-      tags: ['react.js', 'hooks', 'styled'],
+      tags: ['React.js', 'Hooks', 'Styled'],
     },
     {
       id: 4,
@@ -53,7 +53,7 @@ const projectList = {
       source_url: 'https://github.com/skyv26/interactive-price-component',
       image: './assets/pricing-component.webp',
       model_image: './assets/Interactive-pricing-component-d.webp',
-      tags: ['html', 'sass/scss', 'javascript'],
+      tags: ['HTML', 'SASS/SCSS', 'JavaScript'],
     },
     {
       id: 5,
@@ -64,7 +64,7 @@ const projectList = {
       source_url: 'https://github.com/skyv26/ticket-master',
       image: './assets/ticketo-m.webp',
       model_image: './assets/ticketo.webp',
-      tags: ['react.js', 'styled', 'API'],
+      tags: ['React.js', 'Styled', 'API'],
     },
     {
       id: 6,
@@ -75,7 +75,7 @@ const projectList = {
       source_url: 'https://github.com/skyv26/Tip-Calculator-App',
       image: './assets/tip-cal-m.webp',
       model_image: './assets/tip-cal.webp',
-      tags: ['html', 'css3', 'javascript'],
+      tags: ['HTML', 'CSS3', 'JavaScript'],
     },
   ],
 };
