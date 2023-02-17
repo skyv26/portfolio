@@ -1571,7 +1571,6 @@ main .navigation-list__social--link svg path {
 
 @media (min-width: 1360px) {
   body {
-    /* max-width: 1440px; */
     margin: auto;
   }
 
