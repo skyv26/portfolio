@@ -8,10 +8,6 @@
   box-sizing: border-box;
 }
 
-*:focus {
-  outline: 4px solid rgba(255, 102, 0, 0.587);
-}
-
 /* END of CSS Resetter */
 
 html {
@@ -25,6 +21,7 @@ body {
   margin: auto;
   position: relative;
   z-index: 1;
+  background-color: rgb(28 26 25);
 }
 
 .main-header {
@@ -32,20 +29,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.6rem 2.4rem;
-  background-color: #3c3a39;
+  padding: 1.6rem 1.2rem;
   color: white;
   font-size: 2.4rem;
 }
 
 .main-header__logo {
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
   line-height: 2rem;
-  font-size: 2rem;
-  text-shadow:
-    1px 1px rgba(255, 255, 255, 0.729),
-    2px 2px rgba(128, 128, 128, 0.613);
+  font-size: 1.6rem;
   font-weight: bold;
+  font-family: 'Sarina', cursive;
   letter-spacing: 2px;
 }
 
@@ -70,7 +64,6 @@ body {
   background-color: rgb(60, 58, 57);
   width: 100%;
   min-height: 100%;
-  padding: 1.6rem 2.4rem;
   z-index: 5;
 }
 
@@ -687,7 +680,11 @@ body {
   border-top: 1px solid #dfe1e6;
 }
 
-.footer .navigation-list .navigation-list__social .navigation-list__social--link svg path {
+main .navigation-list__social--link svg path {
+  fill: #ffffff;
+}
+
+.navigation-list__social--link svg path {
   fill: #505f79;
 }
 
@@ -759,11 +756,6 @@ body {
   }
 
   .section-intro__main-heading {
-    transition: ease-in 0.5s;
-  }
-
-  .section-intro__main-heading:hover {
-    text-shadow: 4px 4px #fff;
     transition: ease-in 0.5s;
   }
 
@@ -971,17 +963,17 @@ body {
     animation: btnEffect 1s ease-in-out 0.2s infinite;
   }
 
-  .footer .navigation-list .navigation-list__social--link,
-  .footer .navigation-list .navigation-list__social--link svg {
+  .navigation-list .navigation-list__social--link,
+  .navigation-list .navigation-list__social--link svg {
     transition: ease-out 0.25s;
   }
 
-  .footer .navigation-list .navigation-list__social--link:hover svg {
+  .navigation-list .navigation-list__social--link:hover svg {
     transform: scale(1.25);
     transition: ease-in 0.25s;
   }
 
-  .footer .navigation-list .navigation-list__social--link:hover svg path {
+  .navigation-list .navigation-list__social--link:hover svg path {
     fill: crimson;
   }
 
